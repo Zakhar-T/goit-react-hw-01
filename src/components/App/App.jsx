@@ -16,9 +16,7 @@ export default function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <div className={css.friendsContainer}>
-        <FriendList friends={friends} />
-      </div>
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
   );
