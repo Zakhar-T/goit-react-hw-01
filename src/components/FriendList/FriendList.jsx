@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import css from './friendList.module.css';
+import css from './FriendList.module.css';
 
 export default function FriendList({ friends }) {
   return friends.map((friend) => {
