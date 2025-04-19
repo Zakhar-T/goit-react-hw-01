@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './friendList.module.css';
 
-export function FriendList({ friends }) {
+export default function FriendList({ friends }) {
   return friends.map((friend) => {
     return (
       <div className={css.container} key={friend.id}>

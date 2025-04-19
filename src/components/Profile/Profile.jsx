@@ -1,6 +1,6 @@
 import css from './profile.module.css';
 
-export function Profile({ name, tag, location, image, stats }) {
+export default function Profile({ name, tag, location, image, stats }) {
   return (
     <div className={css.container}>
       <div className={css.userWrapper}>
